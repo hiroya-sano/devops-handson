@@ -9,11 +9,11 @@ permissions:
 
 env:
   # TODO: Update this
-  SQL_SERVER: 
-  DATABASENAME: 
-  ACR: 
-  AKS_CLUSTER_NAME: 
-  RESOURCE_GROUP_NAME: 
+  SQL_SERVER: devops-handson-sqlserver.database.windows.net
+  DATABASENAME: mhcdb
+  ACR: devopshandsonacr.azurecr.io
+  AKS_CLUSTER_NAME: devops-handson-cluster
+  RESOURCE_GROUP_NAME: akshandsonlab
 
 jobs:
   build:
